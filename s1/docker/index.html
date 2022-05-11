@@ -1,85 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-<title>一封 Docker 公司的来信</title>
-    <meta name="description" content="亲爱的开发者，您好，
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>一封 Docker 公司的来信</title>
+<meta name="description" content="亲爱的开发者，您好，
 ">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="一封 Docker 公司的来信">
-    <meta property="og:description" content="亲爱的开发者，您好，
+<meta property="og:type" content="website">
+<meta property="og:title" content="一封 Docker 公司的来信">
+<meta property="og:description" content="亲爱的开发者，您好，
 ">
-    <meta name="twitter:title" content="一封 Docker 公司的来信">
-    <meta name="twitter:description" content="亲爱的开发者，您好，
+<meta name="twitter:title" content="一封 Docker 公司的来信">
+<meta name="twitter:description" content="亲爱的开发者，您好，
 ">
-
 <meta property="og:url" content="https://2d2d.io/s1/docker">
     <meta property="twitter:url" content="https://2d2d.io/s1/docker">
-
-    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="https://2d2d.io/static/s1/6/docker.jpeg">
     <meta name="twitter:image" content="https://2d2d.io/static/s1/6/docker.jpeg">
-    <link rel="icon" type="image/png" href="/favicon.ico">
-    <link rel="stylesheet" href="/static/zine.css">
-    <link rel="alternate" type="application/atom+xml" title="TO-D 杂志 RSS" href="/feed.xml">
-    <style>
-      :root {
-          --primary-color: #ffb52f;
-          --main-color: #000;
-          --link-color: #e07312;
-          --secondary-color: #eff3f7;
-      }
-    </style>
-</head>
+<link rel="icon" type="image/png" href="/favicon.ico">
+        <link rel="stylesheet" href="/static/zine.css">
+        <link rel="alternate"
+              type="application/atom+xml"
+              title="TO-D 杂志 RSS"
+              href="/feed.xml">
+        <link rel="stylesheet" href="/static/footer.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
-<body class="h-full bg-secondary">
-    <div class="bg-primary text-main font-bold text-center z-0" style="background-image: url('/static/pattern.svg')">
-    <header class="p-8 md:p-10">
-            <div class="text-4xl lg:text-5xl"><a href="/">TO-D 杂志</a></div>
-
-            <ul>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/about">关于</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/blog">博客</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/review">读者好评</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/sponsor">赞助</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="https://github.com/zineland/2d2d">GitHub</a></li>
-                </ul>
-        </header>
-        <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
-    </div>
-
-    <main class="pb-10 -translate-y-32
-                 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56
-                 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
-            <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white 
-            shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
-    <div class="relative mx-2">
-        <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block
-                                transition sm:hover:scale-110 duration-500"
-                        href="/s1">
-            <div class="relative text-main px-4">第一季</div>
-        </a>
-        <span class="ml-2 text-gray-700"> /  第 ⁨6⁩ 篇</span>
-    </div>
-    <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
-    <div class="prose mx-auto">
-        <h1 class="text-center">一封 Docker 公司的来信</h1>
-        <div class="flex items-center justify-between text-gray-500">
-            <span>2022-01-27</span>
-            <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline" href="/@folyd">
-        <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover" src="/static/avatar/folyd.jpg" alt="avatar" loading="lazy">
-        <span>
-        Folyd
-        </span>
-    </a>
-    
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-PFMPLGGJHQ');
+</script>
+        <style>
+            :root {
+                --primary-color: #bbdaf3;
+                --main-color: #000;
+                --link-color: #e07312;
+                --secondary-color: #eff3f7;
+            }
+        </style>
+    </head>
+    <body class="h-full bg-secondary">
+        <div class="bg-primary text-main font-bold text-center z-0"
+                 style="background-image: url('/static/pattern.svg')">
+            <header class="p-8 md:p-10">
+                    <div class="text-4xl lg:text-5xl">
+                        <a href="/">TO-D 杂志</a>
+                    </div>
+                    <ul>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/about">关于</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/blog">博客</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/review">读者好评</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/sponsor">赞助</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="https://github.com/zineland/2d2d">GitHub</a>
+                            </li>
+                        </ul>
+                </header>
+                <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
+            </div>
+            <main class="pb-10 -translate-y-32 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
+                <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
+        <div class="relative mx-2">
+            <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block transition sm:hover:scale-110 duration-500"
+               href="/s1">
+                <div class="relative text-main px-4">第一季</div>
+            </a>
+            <span class="ml-2 text-gray-700">/  第 ⁨6⁩ 篇</span>
         </div>
-    </div>
-    <article class="prose mx-auto my-12">
-        <blockquote>
+        <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
+        <div class="prose mx-auto">
+            <h1 class="text-center">一封 Docker 公司的来信</h1>
+            <div class="flex items-center justify-between text-gray-500">
+                <span>2022-01-27</span>
+                <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline"
+           href="/@folyd">
+            <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover"
+                 src="/static/avatar/folyd.jpg"
+                 alt="avatar"
+                 loading="lazy">
+            <span>
+                Folyd
+                </span>
+        </a>
+    
+            </div>
+        </div>
+        <article class="prose mx-auto my-12">
+            <blockquote>
 <img class="mx-auto" style="width: 150px;" src="/static/s1/6/docker-logo.png"/>
 <p>亲爱的开发者，您好，</p>
 <p>        感谢您过去一年使用 Docker 公司的产品！2022 年新春将至，Docker 公司祝您新年愉快，虎年大吉！</p>
@@ -145,26 +166,24 @@
 <p><img src="/static/s1/6/later1.jpg" alt="" loading="lazy"></p>
 <p><img src="/static/s1/6/later2.png" alt="" loading="lazy"></p>
 
-
-        </article>
-    <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
-        <div class="flex flex-col md:flex-row">
-        <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/coreos">
-                    上一篇：
-                    云原生的一代传奇 CoreOS
-                </a>
-            <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/rancher">
-                    下一篇：
-                    云农场的放牧人 Rancher
-                </a>
-            </div>
-    </div>
+            </article>
+        <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
+            <div class="flex flex-col md:flex-row">
+                <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/coreos">
+                            上一篇：
+                            云原生的一代传奇 CoreOS
+                        </a>
+                    <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/rancher">
+                            下一篇：
+                            云农场的放牧人 Rancher
+                        </a>
+                    </div>
+        </div>
 </main>
-
-    <footer class="relative">
-        <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
+            <footer class="relative">
+                <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
     <div class="flex justify-center mb-28 top-16 font-bold">
         <div class="text-sm md:text-2xl border-solid border-2 border-[#ffb52f] py-3">
             <span class="text-main bg-primary p-4">订阅方式：</span>
@@ -205,27 +224,13 @@
         Copyright © 2022 TO-D 杂志
     </div>
 </div>
-<link rel="stylesheet" href="/static/footer.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-PFMPLGGJHQ');
-</script>
-            <a href="https://github.com/zineland" 
-           class="absolute z-20 bottom-0 w-full text-center font-bold
-                  md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent
-                  bg-primary p-2 text-main">
-            Proudly powered by Zine.
-        </a>
-        </div>
-    </footer>
-</body>
-<script src="/static/medium-zoom.min.js"></script>
-<script src="/static/zine.js"></script>
+                <a href="https://github.com/zineland"
+                   class="absolute z-20 bottom-0 w-full text-center font-bold md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent bg-primary p-2 text-main">
+                    Proudly powered by Zine.
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="/static/medium-zoom.min.js"></script>
+    <script src="/static/zine.js"></script>
 </html>
-

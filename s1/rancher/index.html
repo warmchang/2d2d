@@ -1,92 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-<title>云农场的放牧人 Rancher</title>
-    <meta name="description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="云农场的放牧人 Rancher">
-    <meta property="og:description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
-    <meta name="twitter:title" content="云农场的放牧人 Rancher">
-    <meta name="twitter:description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>云农场的放牧人 Rancher</title>
+<meta name="description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
+<meta property="og:type" content="website">
+<meta property="og:title" content="云农场的放牧人 Rancher">
+<meta property="og:description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
+<meta name="twitter:title" content="云农场的放牧人 Rancher">
+<meta name="twitter:description" content="1999 年 Sun 公司的一名工程师出版了一本书，名为《The Java Native Interface (JNI)》。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公">
 <meta property="og:url" content="https://2d2d.io/s1/rancher">
     <meta property="twitter:url" content="https://2d2d.io/s1/rancher">
-
-    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="https://2d2d.io/static/s1/7/rancher.png">
     <meta name="twitter:image" content="https://2d2d.io/static/s1/7/rancher.png">
-    <link rel="icon" type="image/png" href="/favicon.ico">
-    <link rel="stylesheet" href="/static/zine.css">
-    <link rel="alternate" type="application/atom+xml" title="TO-D 杂志 RSS" href="/feed.xml">
-    <style>
-      :root {
-          --primary-color: #ffb52f;
-          --main-color: #000;
-          --link-color: #e07312;
-          --secondary-color: #eff3f7;
-      }
-    </style>
-</head>
+<link rel="icon" type="image/png" href="/favicon.ico">
+        <link rel="stylesheet" href="/static/zine.css">
+        <link rel="alternate"
+              type="application/atom+xml"
+              title="TO-D 杂志 RSS"
+              href="/feed.xml">
+        <link rel="stylesheet" href="/static/footer.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
-<body class="h-full bg-secondary">
-    <div class="bg-primary text-main font-bold text-center z-0" style="background-image: url('/static/pattern.svg')">
-    <header class="p-8 md:p-10">
-            <div class="text-4xl lg:text-5xl"><a href="/">TO-D 杂志</a></div>
-
-            <ul>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/about">关于</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/blog">博客</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/review">读者好评</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/sponsor">赞助</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="https://github.com/zineland/2d2d">GitHub</a></li>
-                </ul>
-        </header>
-        <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
-    </div>
-
-    <main class="pb-10 -translate-y-32
-                 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56
-                 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
-            <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white 
-            shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
-    <div class="relative mx-2">
-        <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block
-                                transition sm:hover:scale-110 duration-500"
-                        href="/s1">
-            <div class="relative text-main px-4">第一季</div>
-        </a>
-        <span class="ml-2 text-gray-700"> /  第 ⁨7⁩ 篇</span>
-    </div>
-    <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
-    <div class="prose mx-auto">
-        <h1 class="text-center">云农场的放牧人 Rancher</h1>
-        <div class="flex items-center justify-between text-gray-500">
-            <span>2022-02-10</span>
-            <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline" href="/@folyd">
-        <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover" src="/static/avatar/folyd.jpg" alt="avatar" loading="lazy">
-        <span>
-        Folyd
-        </span>
-    </a>
-    
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-PFMPLGGJHQ');
+</script>
+        <style>
+            :root {
+                --primary-color: #bbdaf3;
+                --main-color: #000;
+                --link-color: #e07312;
+                --secondary-color: #eff3f7;
+            }
+        </style>
+    </head>
+    <body class="h-full bg-secondary">
+        <div class="bg-primary text-main font-bold text-center z-0"
+                 style="background-image: url('/static/pattern.svg')">
+            <header class="p-8 md:p-10">
+                    <div class="text-4xl lg:text-5xl">
+                        <a href="/">TO-D 杂志</a>
+                    </div>
+                    <ul>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/about">关于</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/blog">博客</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/review">读者好评</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/sponsor">赞助</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="https://github.com/zineland/2d2d">GitHub</a>
+                            </li>
+                        </ul>
+                </header>
+                <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
+            </div>
+            <main class="pb-10 -translate-y-32 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
+                <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
+        <div class="relative mx-2">
+            <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block transition sm:hover:scale-110 duration-500"
+               href="/s1">
+                <div class="relative text-main px-4">第一季</div>
+            </a>
+            <span class="ml-2 text-gray-700">/  第 ⁨7⁩ 篇</span>
         </div>
-    </div>
-    <article class="prose mx-auto my-12">
-        <p>1999 年 Sun 公司的一名工程师出版了一本书，名为<a href="https://book.douban.com/subject/3162962/">《The Java Native Interface (JNI)》</a>。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公司，也就是本期主题公司 Rancher。</p>
+        <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
+        <div class="prose mx-auto">
+            <h1 class="text-center">云农场的放牧人 Rancher</h1>
+            <div class="flex items-center justify-between text-gray-500">
+                <span>2022-02-10</span>
+                <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline"
+           href="/@folyd">
+            <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover"
+                 src="/static/avatar/folyd.jpg"
+                 alt="avatar"
+                 loading="lazy">
+            <span>
+                Folyd
+                </span>
+        </a>
+    
+            </div>
+        </div>
+        <article class="prose mx-auto my-12">
+            <p>1999 年 Sun 公司的一名工程师出版了一本书，名为<a href="https://book.douban.com/subject/3162962/">《The Java Native Interface (JNI)》</a>。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公司，也就是本期主题公司 Rancher。</p>
 <p><img src="/static/s1/7/jni.png" alt="" loading="lazy"></p>
 <h2 id="技术梦想家" class="flex group">
-    <span>技术梦想家</span>
-    <a href="#技术梦想家" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>技术梦想家</span>
+<a href="#技术梦想家"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>梁胜这个名字可能并不被大家所熟知，但是他过去的人生履历和所取得的成就无一不值得我们敬佩和赞叹。</p>
 <ul>
@@ -129,14 +156,20 @@
 </ul>
 <p>作为一名连续创业者，<strong>梁博士是一位标准的技术梦想家，也是一位具有开拓精神的优秀创业者和企业家。</strong> 作为华人工程师的泰斗，梁博士<a href="https://mp.weixin.qq.com/s/3hXMvQa7IO3zS-7JfxRhiQ">勉励国内工程师</a>：<strong>不要相信程序员只能吃青春饭，绝对没有任何其它职业比编程序更能体现个人创造力和技能的价值，程序员就像艺术家，要努力成为世界一流。</strong></p>
 <h2 id="rancher" class="flex group">
-    <span>Rancher</span>
-    <a href="#rancher" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Rancher</span>
+<a href="#rancher"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>2014 年，Docker 已经正式发布一年了，CoreOS 也成立了，K8S 正在萌芽中，梁胜博士敏锐的发现一个新的技术变革时代即将到来，未来不可能再是 CloudStack 和 OpenStack 的时代，而将是容器的时代。Rancher 就这样诞生了！</p>
 <p><img src="/static/s1/7/liangsheng.png" alt="" loading="lazy"></p>
@@ -219,14 +252,20 @@
 </ul>
 <p>Rancher 的项目实在是太多了，还有一些项目没有例举出来。Rancher 过去几年深刻洞察行业趋势，发掘客户需求，推出了一个又一个备受欢迎的产品，2020 年被 SUSE 收购后更是强强联合。</p>
 <h2 id="suse + rancher" class="flex group">
-    <span>SUSE + Rancher</span>
-    <a href="#suse + rancher" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>SUSE + Rancher</span>
+<a href="#suse + rancher"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/7/suse-rancher.png" alt="" loading="lazy"></p>
 <p>2020 年 7 月 8 号，SUSE 和 Rancher 联合宣布，SUSE 将收购 Rancher，不过双方都未透露具体的收购金额。2020 年 12 月 1 号，Rancher 收购案正式完成。</p>
@@ -244,26 +283,24 @@
 <img src="/static/s1/7/twitter-shepherd.png" alt="" loading="lazy"></p>
 </blockquote>
 
-
-        </article>
-    <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
-        <div class="flex flex-col md:flex-row">
-        <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/docker">
-                    上一篇：
-                    一封 Docker 公司的来信
-                </a>
-            <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/mesos">
-                    下一篇：
-                    曾经 Mesos 背后的公司，如今在干嘛?
-                </a>
-            </div>
-    </div>
+            </article>
+        <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
+            <div class="flex flex-col md:flex-row">
+                <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/docker">
+                            上一篇：
+                            一封 Docker 公司的来信
+                        </a>
+                    <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/mesos">
+                            下一篇：
+                            曾经 Mesos 背后的公司，如今在干嘛?
+                        </a>
+                    </div>
+        </div>
 </main>
-
-    <footer class="relative">
-        <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
+            <footer class="relative">
+                <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
     <div class="flex justify-center mb-28 top-16 font-bold">
         <div class="text-sm md:text-2xl border-solid border-2 border-[#ffb52f] py-3">
             <span class="text-main bg-primary p-4">订阅方式：</span>
@@ -304,27 +341,13 @@
         Copyright © 2022 TO-D 杂志
     </div>
 </div>
-<link rel="stylesheet" href="/static/footer.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-PFMPLGGJHQ');
-</script>
-            <a href="https://github.com/zineland" 
-           class="absolute z-20 bottom-0 w-full text-center font-bold
-                  md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent
-                  bg-primary p-2 text-main">
-            Proudly powered by Zine.
-        </a>
-        </div>
-    </footer>
-</body>
-<script src="/static/medium-zoom.min.js"></script>
-<script src="/static/zine.js"></script>
+                <a href="https://github.com/zineland"
+                   class="absolute z-20 bottom-0 w-full text-center font-bold md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent bg-primary p-2 text-main">
+                    Proudly powered by Zine.
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="/static/medium-zoom.min.js"></script>
+    <script src="/static/zine.js"></script>
 </html>
-

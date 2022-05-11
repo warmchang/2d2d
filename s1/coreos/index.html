@@ -1,91 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-<title>云原生的一代传奇 CoreOS</title>
-    <meta name="description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="云原生的一代传奇 CoreOS">
-    <meta property="og:description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
-    <meta name="twitter:title" content="云原生的一代传奇 CoreOS">
-    <meta name="twitter:description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>云原生的一代传奇 CoreOS</title>
+<meta name="description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
+<meta property="og:type" content="website">
+<meta property="og:title" content="云原生的一代传奇 CoreOS">
+<meta property="og:description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
+<meta name="twitter:title" content="云原生的一代传奇 CoreOS">
+<meta name="twitter:description" content="除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (https://coreos.com) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在互联网档案馆上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？">
 <meta property="og:url" content="https://2d2d.io/s1/coreos">
     <meta property="twitter:url" content="https://2d2d.io/s1/coreos">
-
-    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="https://2d2d.io/static/s1/5/product.png">
     <meta name="twitter:image" content="https://2d2d.io/static/s1/5/product.png">
-    <link rel="icon" type="image/png" href="/favicon.ico">
-    <link rel="stylesheet" href="/static/zine.css">
-    <link rel="alternate" type="application/atom+xml" title="TO-D 杂志 RSS" href="/feed.xml">
-    <style>
-      :root {
-          --primary-color: #ffb52f;
-          --main-color: #000;
-          --link-color: #e07312;
-          --secondary-color: #eff3f7;
-      }
-    </style>
-</head>
+<link rel="icon" type="image/png" href="/favicon.ico">
+        <link rel="stylesheet" href="/static/zine.css">
+        <link rel="alternate"
+              type="application/atom+xml"
+              title="TO-D 杂志 RSS"
+              href="/feed.xml">
+        <link rel="stylesheet" href="/static/footer.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
-<body class="h-full bg-secondary">
-    <div class="bg-primary text-main font-bold text-center z-0" style="background-image: url('/static/pattern.svg')">
-    <header class="p-8 md:p-10">
-            <div class="text-4xl lg:text-5xl"><a href="/">TO-D 杂志</a></div>
-
-            <ul>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/about">关于</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/blog">博客</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/review">读者好评</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="/sponsor">赞助</a></li>
-                <li class="inline-block mt-6 mx-5 text-base hover:underline"><a href="https://github.com/zineland/2d2d">GitHub</a></li>
-                </ul>
-        </header>
-        <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
-    </div>
-
-    <main class="pb-10 -translate-y-32
-                 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56
-                 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
-            <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white 
-            shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
-    <div class="relative mx-2">
-        <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block
-                                transition sm:hover:scale-110 duration-500"
-                        href="/s1">
-            <div class="relative text-main px-4">第一季</div>
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-PFMPLGGJHQ');
+</script>
+        <style>
+            :root {
+                --primary-color: #bbdaf3;
+                --main-color: #000;
+                --link-color: #e07312;
+                --secondary-color: #eff3f7;
+            }
+        </style>
+    </head>
+    <body class="h-full bg-secondary">
+        <div class="bg-primary text-main font-bold text-center z-0"
+                 style="background-image: url('/static/pattern.svg')">
+            <header class="p-8 md:p-10">
+                    <div class="text-4xl lg:text-5xl">
+                        <a href="/">TO-D 杂志</a>
+                    </div>
+                    <ul>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/about">关于</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/blog">博客</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/review">读者好评</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="/sponsor">赞助</a>
+                            </li>
+                        <li class="inline-block mt-6 mx-5 text-base hover:underline">
+                                <a href="https://github.com/zineland/2d2d">GitHub</a>
+                            </li>
+                        </ul>
+                </header>
+                <div class="w-full h-32 md:h-36 lg:h-44 xl:h-48 2xl:h-56"></div>
+            </div>
+            <main class="pb-10 -translate-y-32 md:-translate-y-32 lg:-translate-y-36 xl:-translate-y-44 2xl:-translate-y-56 mx-auto sm:max-w-scree-md md:max-w-screen-lg">
+                <div class="p-4 pb-10 md:p-8 md:pb-14 mx-4 my-6 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5">
+        <div class="relative mx-2">
+            <a class="before:block before:absolute before:-inset-1 before:-skew-x-6 before:bg-primary relative inline-block transition sm:hover:scale-110 duration-500"
+               href="/s1">
+                <div class="relative text-main px-4">第一季</div>
+            </a>
+            <span class="ml-2 text-gray-700">/  第 ⁨5⁩ 篇</span>
+        </div>
+        <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
+        <div class="prose mx-auto">
+            <h1 class="text-center">云原生的一代传奇 CoreOS</h1>
+            <div class="flex items-center justify-between text-gray-500">
+                <span>2022-01-20</span>
+                <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline"
+           href="/@folyd">
+            <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover"
+                 src="/static/avatar/folyd.jpg"
+                 alt="avatar"
+                 loading="lazy">
+            <span>
+                Folyd
+                </span>
         </a>
-        <span class="ml-2 text-gray-700"> /  第 ⁨5⁩ 篇</span>
-    </div>
-    <div class="mt-4 mb-8 w-full border-dashed border-t border-slate-300"></div>
-    <div class="prose mx-auto">
-        <h1 class="text-center">云原生的一代传奇 CoreOS</h1>
-        <div class="flex items-center justify-between text-gray-500">
-            <span>2022-01-20</span>
-            <a class="flex items-center px-2 py-1 !text-gray-500 rounded hover:bg-gray-200 hover:!no-underline" href="/@folyd">
-        <img class="!m-0 !p-1 w-7 h-7 rounded-full object-cover" src="/static/avatar/folyd.jpg" alt="avatar" loading="lazy">
-        <span>
-        Folyd
-        </span>
-    </a>
     
+            </div>
         </div>
-    </div>
-    <article class="prose mx-auto my-12">
-        <p>除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (<a href="https://coreos.com">https://coreos.com</a>) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在<a href="https://web.archive.org/web/20170920080743/https://coreos.com/">互联网档案馆</a>上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？</p>
+        <article class="prose mx-auto my-12">
+            <p>除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (<a href="https://coreos.com">https://coreos.com</a>) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在<a href="https://web.archive.org/web/20170920080743/https://coreos.com/">互联网档案馆</a>上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？</p>
 <h2 id="创立初心" class="flex group">
-    <span>创立初心</span>
-    <a href="#创立初心" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>创立初心</span>
+<a href="#创立初心"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/5/garage.png" alt="" loading="lazy"></p>
 <blockquote>
@@ -101,14 +128,20 @@
 <p>值得一提的是 Brandon Philips 在创立 CoreOS 之前已经在 SUSE Linux 作为一名内核工程师工作了 4 年多了。而当时另外一名资深的 Linux 内核维护者  <a href="http://en.wikipedia.org/wiki/Greg_Kroah-Hartman">Greg Kroah-Hartman</a> 则是他们的技术顾问。2021 年 4 月，明尼苏达大学的教授故意向 Linux 提交漏洞代码来做研究，就是被 Greg Kroah-Hartman 给封禁的。</p>
 </blockquote>
 <h2 id="一路开挂" class="flex group">
-    <span>一路开挂</span>
-    <a href="#一路开挂" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>一路开挂</span>
+<a href="#一路开挂"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>自创立 CoreOS 之后，这家公司的产出和取得的成就只能用<strong>一路开挂</strong>这个词来形容：</p>
 <ul>
@@ -150,14 +183,20 @@
 <p>另外，CoreOS 是 CNCF 2015 年创立时的最初始成员之一，当时他们公司成立才两年。</p>
 <p>上述这些产品在现在依然影响深远，可以毫不夸张的说：<strong>云原生领域的半壁江山都是构建在这些产品的基础上的，这种一路开挂的操作在世界上恐怕没有几家创业公司可以与之匹敌。</strong></p>
 <h2 id="商业化" class="flex group">
-    <span>商业化</span>
-    <a href="#商业化" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>商业化</span>
+<a href="#商业化"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>CoreOS 的产品非常具有前瞻性，在早期都没多少人知道容器、Kubernets 是啥的时候，他们已经开始做商业化了。当时他们最主要的商业化产品有三款：</p>
 <ul>
@@ -168,14 +207,20 @@
 <p><strong>这三款产品形成了一个完整的容器操作系统、镜像托管、容器编排的链路，商业思路也非常清晰。</strong> CoreOS 在其<a href="https://web.archive.org/web/20190113053653/https://coreos.com/blog/coreos-fourth-birthday">四周年的博客</a>中提到当时他们有 2000+ 家全球的主要客户 (Key customers)。</p>
 <p><img src="/static/s1/5/martix.png" alt="" loading="lazy"></p>
 <h2 id="被收购" class="flex group">
-    <span>被收购</span>
-    <a href="#被收购" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>被收购</span>
+<a href="#被收购"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>2014 年 RedHat 看到了 CoreOS 的崛起，推出了对标 CoreOS 的项目 - <a href="https://projectatomic.io/">Atomic</a>。同时，RedHat 的另一款商业产品 OpenShift 跟 CoreOS 的 Tectonic 也存在非常大的竞争关系。经过几年的相爱相杀，RedHat 和 CoreOS 达成共识。<strong>2018 年 1 月 30 号，RedHat 以 2.5 亿美金的价格全资收购 CoreOS（<em>当时 CoreOS 的员工才 130 人</em>）。</strong> 收购后，CoreOS 的 Container Linux 和 Atomic 合并进 Red Hat Enterprise Linux，CoreOS 的 Tectonic 合入 OpenShift，Quay.io 则作为 RedHat 的子产品继续存在。</p>
 <div class="url-preview">
@@ -197,26 +242,24 @@
 <p>CoreOS 被 RedHat 收购后，开源社区推出了 <a href="https://www.flatcar.org/">Flatcar</a> Container Linux 作为开源版 Container Linux 的接任者，RedHat 也推出了开源版的 <a href="https://getfedora.org/en/coreos">Fedora CoreOS</a> (Google 搜索 CoreOS 的第一条结果就是这个）。</p>
 </blockquote>
 
-
-        </article>
-    <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
-        <div class="flex flex-col md:flex-row">
-        <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/kong-vs-apisix">
-                    上一篇：
-                    云原生时代的中外 API 网关之争
-                </a>
-            <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
-                    href="/s1/docker">
-                    下一篇：
-                    一封 Docker 公司的来信
-                </a>
-            </div>
-    </div>
+            </article>
+        <div class="my-4 w-full border-dashed border-t border-slate-300"></div>
+            <div class="flex flex-col md:flex-row">
+                <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/kong-vs-apisix">
+                            上一篇：
+                            云原生时代的中外 API 网关之争
+                        </a>
+                    <a class="inline my-1 py-2 px-4 font-bold text-slate-700 hover:underline"
+                           href="/s1/docker">
+                            下一篇：
+                            一封 Docker 公司的来信
+                        </a>
+                    </div>
+        </div>
 </main>
-
-    <footer class="relative">
-        <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
+            <footer class="relative">
+                <div class="bg-neutral-900 p-10 pt-20 text-slate-300 translate-y-[-8rem]">
     <div class="flex justify-center mb-28 top-16 font-bold">
         <div class="text-sm md:text-2xl border-solid border-2 border-[#ffb52f] py-3">
             <span class="text-main bg-primary p-4">订阅方式：</span>
@@ -257,27 +300,13 @@
         Copyright © 2022 TO-D 杂志
     </div>
 </div>
-<link rel="stylesheet" href="/static/footer.css">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFMPLGGJHQ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-PFMPLGGJHQ');
-</script>
-            <a href="https://github.com/zineland" 
-           class="absolute z-20 bottom-0 w-full text-center font-bold
-                  md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent
-                  bg-primary p-2 text-main">
-            Proudly powered by Zine.
-        </a>
-        </div>
-    </footer>
-</body>
-<script src="/static/medium-zoom.min.js"></script>
-<script src="/static/zine.js"></script>
+                <a href="https://github.com/zineland"
+                   class="absolute z-20 bottom-0 w-full text-center font-bold md:text-slate-100 md:opacity-10 md:hover:opacity-50 md:bg-transparent bg-primary p-2 text-main">
+                    Proudly powered by Zine.
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="/static/medium-zoom.min.js"></script>
+    <script src="/static/zine.js"></script>
 </html>
-

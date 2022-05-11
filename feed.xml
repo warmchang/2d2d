@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>TO-D 杂志</title>
     <subtitle>专注于探讨全球 To-D 领域相关产品、创业公司、融资等资讯的专栏杂志。</subtitle>
-    <updated>2022-04-30T12:25:32.606896048+00:00</updated>
+    <updated>2022-05-11T13:57:29.150551796+00:00</updated>
     <id>https://2d2d.io</id>
     <link href="https://2d2d.io/feed.xml" rel="self" type="application/atom+xml" />
     <link href="https://2d2d.io" rel="alternate" type="text/html" />
-    <generator uri="https://github.com/zineland/zine" version="0.4.0">zine</generator>
+    <generator uri="https://github.com/zineland/zine" version="0.5.0">zine</generator>
     <author>
         <name>TO-D 杂志</name>
         <uri>https://2d2d.io</uri>
@@ -21,15 +21,22 @@
         <content type="html" xml:base="https://2d2d.io/s2/warp">
             <![CDATA[<p>每个工程师电脑里面都有两款必不可少的软件，一款为代码编辑器，另一款就是终端 (Terminal)。前者在过去几十年里几乎从来没有停止过创新，诞生过的代码编辑器产品可谓数不胜数。目前这部分市场份额虽然已经被 JetBrians 的商业 IDE 和微软开源免费的 VS Code 所垄断，但人们依然在乐此不彼的不断折腾，不断打造新的代码编辑器。而后者则完全是另外一番凄惨景象，过去几十年来终端软件的产品形态、交互方式等等各方面几乎没有大改进。可能大多数人似乎对现有终端软件习以为常了，以至于形成了某种思维定式：现在的终端已经够用了呀，还有啥好创新的？而本期的主角 Warp 却不这样认为。他们认为终端软件还大有可为，为此他们要打造一款属于 21 世纪的终端。</p>
 <h2 id="终端的困境" class="flex group">
-    <span>终端的困境</span>
-    <a href="#终端的困境" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h2><p>
+<span>终端的困境</span>
+<a href="#终端的困境"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h2>
+<p>
 <img class="bg-black" src="/static/s2/3/terminals.png">
 </p>
 <p>终端软件从现代计算机诞生以来就存在了，在 GUI 图形化软件被发明以前，终端几乎是人和计算机交互的唯一方式。一直到今天，每个人的电脑里面默认都会自带一款终端软件，这足以说明终端的重要性。但是，如今的终端就像开头提到的一样，其实陷入了某种困境。</p>
@@ -41,14 +48,20 @@
 </ul>
 <p>以上种种，让<strong>终端软件一直处在他的困境之中，以至于在几十年时间里，创新乏善可陈，用户安于现状，无人愿意打破僵局</strong>。直到 Warp 的出现，这一状况似乎有了新的变局。</p>
 <h2 id="warp" class="flex group">
-    <span>Warp</span>
-    <a href="#warp" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Warp</span>
+<a href="#warp"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/3/warp.png" alt="" loading="lazy"></p>
 <p>Warp 是一家创立于 2020 年的公司，创始人兼 CEO Zach Lloyd 是前 Google 资深工程师，Google Docs / Sheets 的 tech leader，离开 Google 后他有两次创业经验。之所以创立 Warp 是因为他看到了终端软件的这一困境，40 多年来几乎没有太大创新，于是决定以创业的形式打造一款全新的终端。</p>
@@ -59,27 +72,39 @@
 </div>
 <p>笔者初步体验了一下 Warp，整体来说真的很不错，有不少细节值得称赞。下面重点介绍其中的几项：</p>
 <h3 id="block" class="flex group">
-    <span>Block</span>
-    <a href="#block" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Block</span>
+<a href="#block"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Block 真的是 Warp 的一个很不错的创新。在 Warp 里面，每一次命令的输入输出都是一个 Block。不像传统的终端，所有命令和输出都混在一起，肉眼很难区分相邻两条命令的内容，也不方便往上查找之前的命令。Warp 的 Block 很好的解决了这个问题。</p>
 <p><img src="/static/s2/3/warp-block.png" alt="" loading="lazy"></p>
 <p>而且 Block 提供了很多非常实用的功能，比如它把 Copy 功能划分特别细，你可以选择 <em>Copy command, output, prompt, Working Directory</em> 等等，还可以把当前 block 以链接的形式分享出去。<em>Find Within Block</em> 也是一个非常棒的功能！</p>
 <h3 id="workflow" class="flex group">
-    <span>Workflow</span>
-    <a href="#workflow" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Workflow</span>
+<a href="#workflow"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Warp 提供了一个 Workflow 的功能，简单来说就是把常用的命令创建成模板，使用的时候把参数替换一下就可以了。Warp 还专门搞了一个 <a href="https://commands.dev">commands.dev</a> 的站点，每个人都可以制作和分享自己的 Workflow。</p>
 <blockquote>
@@ -87,14 +112,20 @@
 </blockquote>
 <p><img src="/static/s2/3/warp-workflow.png" alt="" loading="lazy"></p>
 <h3 id="进阶版 fig" class="flex group">
-    <span>进阶版 Fig</span>
-    <a href="#进阶版 fig" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>进阶版 Fig</span>
+<a href="#进阶版 fig"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Fig 是这两年来笔者看到的终端软件领域最大创新的产品之一，他有很不错的命令行提示，支持各大主流终端软件，其中尚未发布的 <strong>App Ecosystem for Terminal</strong> 更是让笔者眼前一亮，非常惊艳！</p>
 <p><video preload="auto" style="margin-top:1.75rem;max-width:976px;border-radius:0.5rem" width="100%" autoplay="" controls="" loop="" muted="" playsinline=""><source src="/static/s2/3/fig-video.mp4" type="video/mp4">Sorry, your browser doesn’t support embedded videos.</video></p>
@@ -103,26 +134,38 @@
 <p>因为 Fig 不是终端，只是一个终端辅助软件，每次都需要输入 <code>fig</code> 命令才能使用 <strong>App Ecosystem</strong> 的功能，Warp 或许能做到更极致。未来 Warp 收购 Fig 也不是不可能的事情。</p>
 </blockquote>
 <h3 id="团队协作" class="flex group">
-    <span>团队协作</span>
-    <a href="#团队协作" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>团队协作</span>
+<a href="#团队协作"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>过去的终端软件自始至终都是一个单人使用的本地软件，最近几年很多工具都有了团队协作功能，那么<strong>终端软件也需要团队协作吗？Warp 的 CEO 认为是的</strong>：<em>Every productivity application is more powerful when it’s collaborative. I’m confident that the terminal is no exception.</em> 他还提到终端的团队协作不仅仅是 Google Docs, Figma 那种实时协作，还有异步协作，比如共享终端、命令行、设置、历史记录等等方式。目前团队协作功能还未发布，笔者也未曾体验到，所以我们只能拭目以待了。</p>
 <p><img src="/static/s2/3/warp-collaboration.png" alt="" loading="lazy"></p>
 <h3 id="其他特点" class="flex group">
-    <span>其他特点</span>
-    <a href="#其他特点" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>其他特点</span>
+<a href="#其他特点"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <ul>
 <li><strong>现代化的设计</strong>。Warp 整体设计充满现代感，UI 颜值也不错，毕竟他们专门有一个 Founding Designer.</li>
@@ -130,25 +173,37 @@
 <li><strong>高性能</strong>。Warp 最初的原型是使用 Electron 开发，但因为性能太糟糕，所以转用了 Rust 开发 + GPU 渲染。关于具体的 Warp 技术栈官方写了一篇 <a href="https://www.warp.dev/blog/how-warp-works">How Warp Works</a> 的文章，感兴趣可以自行了解。</li>
 </ul>
 <h2 id="商业模式" class="flex group">
-    <span>商业模式</span>
-    <a href="#商业模式" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>商业模式</span>
+<a href="#商业模式"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>Warp 在他们的 <a href="https://www.warp.dev/faq">FAQ</a> 中提到了他们的商业模式：<strong>对个人免费，团队协作功能需要付费</strong>。这个模式也是目前主流 SaaS 软件的盈利模式，在过去各大 SaaS 公司得到了很好的验证。笔者认为，Warp 选择这个模式是非常适合的。我们前面讲到，个人需付费的终端是很难让用户买单的，所以不能针对个人用户收费。其次，终端在开发者领域是一个受众非常广的软件，他的用户基数会非常大，企业内的工程师必不可少的会用到 Warp。<strong>至于 Warp 后期企业付费客户能做到多大，ARR 营收能达到多少，就要看他提供的团队协作功能是不是真正能解决能企业内的需求了。</strong></p>
 <h2 id="融资情况" class="flex group">
-    <span>融资情况</span>
-    <a href="#融资情况" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>融资情况</span>
+<a href="#融资情况"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/3/warp-cover.jpg" alt="" loading="lazy"></p>
 <p>Warp 目前总共获得了两轮融资，分别是 2021 年 1 月，GV (Google Ventures) 领投的种子轮 600 万美金。最新一轮是 2022 年 4 月 5 号 1700 万美金 A 轮，主要是科技圈几位知名人物的个人投资，其中包括 Figma 的创始人及 CEO <a href="https://www.linkedin.com/in/dylanfield/">Dylan Field</a> (A 轮领投)，AirBnB、Pinterest、Stripe 和 Square 的早期投资人 <a href="https://www.linkedin.com/in/eladgil/">Elad Gil</a>，LinkedIn 执行董事长兼前 CEO <a href="https://www.linkedin.com/in/jeffweiner08/">Jeff Weiner</a>，还有 Salesforce 创始人兼 CEO <a href="https://www.linkedin.com/in/marcbenioff/">Marc Benioff</a>。</p>
@@ -159,14 +214,20 @@
 </div>
 <p>两轮融资总共 2300 万美金，对于一个偏工具类产品来说确实是非常可观。资本可不是慈善，两笔融资或许跟 Warp 创始人个人人脉有关，但更重要的是 Warp 的产品实力和他们的愿景能让资本买单。终端软件过去几十年的一成不变，的确需要一场革新。这场革新或许将由 Warp 来书写，资本便是这场革新的催化剂。</p>
 <h2 id="总结" class="flex group">
-    <span>总结</span>
-    <a href="#总结" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>总结</span>
+<a href="#总结"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>Warp 的这笔融资最近在国内也吸引了不少开发者的注意，大家都会诧异为什么“老掉牙”的终端软件还能获得如此大笔融资？我们很少去思考过为什么终端软件会“老掉牙”？他是不是就该“老掉牙”？这也给笔者一个小小的启发：<code>往往被大多数人所忽略的场景，正好是非常好的创新之处。</code>另一方面，这件事或许会让国内的资本更多的关注到开发者赛道，或许也能激发更多开发者领域的创新者诞生。最后引用张汉东在另一篇 Warp 文章结尾写的一段话：</p>
 <blockquote>
@@ -218,14 +279,20 @@
 </blockquote>
 <p>下面我们就按照字母顺序简单介绍一下其中的一些公司。</p>
 <h2 id="botcity" class="flex group">
-    <span>BotCity</span>
-    <a href="#botcity" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>BotCity</span>
+<a href="#botcity"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/botcity.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://botcity.dev">https://botcity.dev</a></p>
@@ -235,14 +302,20 @@
 <p>编者注：UiPath 是 RPA 软件独角兽，已于 2021 年上市。RPA 是 Robotic Process Automation 的缩写，简单来说 RPA 软件可以帮助用户生成一个类似按键精灵的机器人，替代重复繁琐的手工操作。但编者认为 RPA 市场相对来说不算特别大，而且近年来一定程度上受到了低代码和无代码技术的影响。国内目前还没有诞生一家类似 UiPath 这样的公司，预计应该也很难诞生。</p>
 </blockquote>
 <h2 id="brainboard" class="flex group">
-    <span>Brainboard</span>
-    <a href="#brainboard" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Brainboard</span>
+<a href="#brainboard"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/brainboard.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.brainboard.co">https://www.brainboard.co</a></p>
@@ -251,14 +324,20 @@
 <p>W22 这一期的另外一家叫 <a href="https://www.massdriver.cloud/">Massdriver</a> 的公司也是在做类似的事情。</p>
 </blockquote>
 <h2 id="cogram" class="flex group">
-    <span>Cogram</span>
-    <a href="#cogram" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Cogram</span>
+<a href="#cogram"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/cogram.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://cogram.com">https://cogram.com</a></p>
@@ -268,14 +347,20 @@
 <p>编者注：自从 <a href="https://openai.com">OpenAI</a> 发布诸多 AI 模型之后（特别是 GPT-3），全球短时间内涌现出了大量基于 OpenAI 的 AI 创业公司，编者觉得 Cogram 很大可能是基于 OpenAI 的。W22 这一期另外一家叫 <a href="https://mintlify.com">Mintlify</a> 的公司应该也是基于 OpenAI 的，他们的产品是 AI 辅助生成注释和文档。</p>
 </blockquote>
 <h2 id="convoy" class="flex group">
-    <span>Convoy</span>
-    <a href="#convoy" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Convoy</span>
+<a href="#convoy"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/convoy.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://getconvoy.io">https://getconvoy.io</a></p>
@@ -284,27 +369,39 @@
 <p>Essentially, just like Redis is to key-value storage, and Gitlab is to DevOps, Convoy is to webhooks。</p>
 </blockquote>
 <h2 id="growthbook" class="flex group">
-    <span>GrowthBook</span>
-    <a href="#growthbook" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>GrowthBook</span>
+<a href="#growthbook"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/growthbook.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.growthbook.io">https://www.growthbook.io</a></p>
 <p>GrowthBook 是一家做开源的 Feature Flag, A/B 测试解决方案的公司。Feature Flag 和 A/B 测试也是研发工具链里的重要一环，业界商业化比较成熟的有 <a href="https://launchdarkly.com/">LaunchDarkly</a>, <a href="https://www.split.io/">Split</a>。而开源方案里，比较早做的是 <a href="https://www.getunleash.io/">unleash</a> (也是 GitLab 内置的方案)，也有后起之秀 <a href="https://flagsmith.com/">Flagsmith</a>。国内也有 <a href="https://www.feature-flags.co/">敏捷开关</a> 正在做这块。</p>
 <h2 id="hydra" class="flex group">
-    <span>Hydra</span>
-    <a href="#hydra" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Hydra</span>
+<a href="#hydra"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/hydra.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://hydras.io">https://hydras.io</a></p>
@@ -318,14 +415,20 @@
 </div>
 </blockquote>
 <h2 id="nimbus" class="flex group">
-    <span>Nimbus</span>
-    <a href="#nimbus" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Nimbus</span>
+<a href="#nimbus"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/nimbus.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.usenimbus.com">https://www.usenimbus.com</a></p>
@@ -338,66 +441,96 @@
 </ol>
 <p>第 <strong>1</strong> 点，<a href="https://code.visualstudio.com/docs/remote/remote-overview">VSCode Remote 模式</a> 算是基本解决了，但 <strong>2</strong> 和 <strong>3</strong> 还是业界尚未解决的问题。看 Nimbus 官网也尚未提到这方面的工作，期待后续的进展。</p>
 <h2 id="reality defender" class="flex group">
-    <span>Reality Defender</span>
-    <a href="#reality defender" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Reality Defender</span>
+<a href="#reality defender"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/realitydefender.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.realitydefender.ai">https://www.realitydefender.ai</a></p>
 <p>随着 AI 技术的快速发展，互联网上也不断涌现出了很多通过深度学习等技术合成的虚假内容，比如虚假图片、虚假视频、虚假音频等等，这些被统称为 Deep fake。Deep fake 的可怕之处是人很难辨别这些内容的真实性。Reality Defender 这家公司就是专门来识别这些 Deep fake 的。Reality Defender 最初是由 Microsoft 和 <a href="https://aifoundation.com">AI Foundation</a> 孵化的项目。</p>
 <h2 id="requestly" class="flex group">
-    <span>Requestly</span>
-    <a href="#requestly" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Requestly</span>
+<a href="#requestly"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/requestly.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://requestly.io">https://requestly.io</a></p>
 <p>Requestly 是一款可以用来修改 HTTP 请求，mock 回复，模拟各种异常，测试应用的产品。看到这个介绍，相信有些同学就会想到 Postman，巧合的是这家公司也来自印度，也是从 Chrome 插件入手。</p>
 <h2 id="shaped" class="flex group">
-    <span>Shaped</span>
-    <a href="#shaped" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Shaped</span>
+<a href="#shaped"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/shaped.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.shaped.ai">https://www.shaped.ai</a></p>
 <p>Shaped 是一家提供 AI 推荐算法的初创公司，成立于纽约，据介绍团队初始成员来源于 Facebook 推荐团队。把内容作为输入，内容排序作为输出，等于是给公司打造了一支抖音推荐算法团队。</p>
 <h2 id="vessel" class="flex group">
-    <span>Vessel</span>
-    <a href="#vessel" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Vessel</span>
+<a href="#vessel"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/2/vessel.png" alt="" loading="lazy"></p>
 <p>官网：<a href="https://www.vessel.land">https://www.vessel.land</a></p>
 <p>Vessel 是一家成立于美国加州的初创公司，他们提供了一套统一的 API 来打通不同 CRM 工具之间的数据。</p>
 <h2 id="总结" class="flex group">
-    <span>总结</span>
-    <a href="#总结" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>总结</span>
+<a href="#总结"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>篇幅所限，30 家公司也无法一一罗列，如读者所见相当一部分的公司都是 API 领域的公司，简单做一些总结:</p>
 <ol>
@@ -439,14 +572,20 @@
 </blockquote>
 <p>Deis，就是 DeisLabs 的前身，这是一个非常优秀并且充满创造力的团队，也是笔者非常喜欢的团队。今天我们就来分享 DeisLabs 的故事。</p>
 <h2 id="paas 与 deis" class="flex group">
-    <span>PaaS 与 Deis</span>
-    <a href="#paas 与 deis" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>PaaS 与 Deis</span>
+<a href="#paas 与 deis"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>我们的故事要先从 PaaS 开始说起。2007 年，<a href="https://www.heroku.com/">Heroku</a> 成立后开启了 PaaS 的黄金时代。很多人把 Heroku 称为 PaaS “鼻祖”，其实并不准确。比他成立更早的 <a href="https://www.engineyard.com/">Engine Yard</a> 在 2006 年就开始做类似的事情了，只是 Engine Yard 后来发展比 Heroku 差太多，只能算 PaaS 领域的第二梯队。Engine Yard 几乎是一个没人听过的名字，但他与我们今天的主角 DeisLabs 息息相关。2015 年 4 月 15 日，Engine Yard <a href="https://web.archive.org/web/20170611174913/https://blog.engineyard.com/2015/engine-yard-joins-forces-with-opdemand">收购</a>了一家名为 OpDemand 的公司，这家公司有一款叫 Deis 的主打产品。Deis 是 OpDemand 受 Heroku 启发，于 2013 年开始开发的 PaaS 产品（那个时候的 Heroku 真的是非常火）。Deis 最早的架构是基于 CoreOS, Fleet 和 Docker，后来被称为 v1 版架构，早已被弃用，不过我们现在依然可以在 Github 上一瞥曾经 Deis v1 的代码 (<a href="https://github.com/deis/deis">https://github.com/deis/deis</a>)。</p>
 <blockquote>
@@ -467,27 +606,39 @@
 <p>而现在的 Engine Yard 也不是在 Crossover 名下，而是在一个叫 Devgraph 的公司名下，具体是不是 Crossover 转卖给 <a href="https://devgraph.com">Devgraph</a> 的就不得而知了。</p>
 </blockquote>
 <h2 id="deis labs" class="flex group">
-    <span>Deis Labs</span>
-    <a href="#deis labs" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Deis Labs</span>
+<a href="#deis labs"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>被微软收购后，所有 Deis 的成员全部加入 Azure，为了致敬曾经的 Deis 团队，他们把自己在微软的新团队取名 Deis Labs，官网：<a href="https://deislabs.io">https://deislabs.io</a>。</p>
 <p><img src="/static/s2/1/deislabs.png" alt="" loading="lazy"></p>
 <p>新的 Deis Labs 主要专注于 Kubernetes 和 WebAssembly 两大领域。微软也给 Deis Labs 提供了一个足够大的平台，激发了 Deis Labs 的无穷创造力。他们在短短几年内除了要顾及 Azure 的容器服务，还推出了很多开源项目。虽然有些项目并没有特别知名，但长远来看很多都是很有意义的项目。在介绍这些项目前，我们不得不先介绍一下 Deis Labs 在老东家 Engine Yard 就推出的项目 <a href="https://helm.sh/">Helm</a>。</p>
 <h3 id="helm" class="flex group">
-    <span>Helm</span>
-    <a href="#helm" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Helm</span>
+<a href="#helm"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p><img src="/static/s2/1/helm.png" alt="" loading="lazy"></p>
 <p><strong>Helm 是 Deis 团队于 2015 年发布的一个 Kubernetes 的包管理工具，目前是 CNCF 的已毕业项目，也是 Kubernetes 生态里面不可或缺的明星级项目</strong>。Kubernetes 默认需要开发者手动编写、维护数量繁多的 Yaml 文件，并且应用的分发、安装也比较繁琐。Helm 引入了 Charts 的概念，开发者可以把自己的应用配置文件打包成 Charts 格式，发布到 <a href="https://artifacthub.io/">ArtifactHub</a> (取代了之前的 Helm Hub) 后，安装新的 Kubernetes 应用只需要一条 Helm 命令就能搞定，极大程度上解决了 Kubernetes 应用维护、分发、安装等问题。</p>
@@ -496,14 +647,20 @@
 <p>Helm 这个名字也很有意思，Kubernetes 是希腊语“船长”的意思，而 Helm 就是船长掌握航行方向的船舵。</p>
 </blockquote>
 <h3 id="其他项目" class="flex group">
-    <span>其他项目</span>
-    <a href="#其他项目" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>其他项目</span>
+<a href="#其他项目"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p><strong>Deis Labs 团队官网列举了他们的大部分项目，其中有 7 个是 CNCF 项目</strong>。后来笔者调研发现，CNCF 另外几个项目也是 Deis Labs 团队的人和其他公司合作搞的，并没有例举在上面。</p>
 <p><img src="/static/s2/1/projects.png" alt="" loading="lazy"></p>
@@ -512,109 +669,169 @@
 </blockquote>
 <p>我们重点介绍一下未归档的项目：</p>
 <h4 id="akri" class="flex group">
-    <span>Akri</span>
-    <a href="#akri" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 200px;" src="/static/s2/1/akri.png"/>
+<span>Akri</span>
+<a href="#akri"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 200px;" src="/static/s2/1/akri.png"/>
 <p><a href="https://github.com/project-akri/akri">Akri</a> 是微软在 2020 年 10 月<a href="https://cloudblogs.microsoft.com/opensource/2020/10/20/announcing-akri-open-source-project-building-connected-edge-kubernetes/">推出</a>的用于帮助 Kubernetes 集群主动发现并利用边缘设备的项目。这里的边缘设备通常是指各种传感器、控制器、相机等 IoT 设备，它们都没办法运行 Kubernetes 充当 Kubernetes 集群的节点。Akri 的目标是想成为边缘 IoT 设备和 Kubernetes 集群交互的标准，所以 Akri 其实是 <code>A Kubernetes Resource Interface</code> 的缩写（同时，Akri 也是希腊语 “Edge” 的意思）。</p>
 <blockquote>
 <p>Akri 是一个 Rust 项目，目前处在 <strong>CNCF 沙盒阶段</strong>。</p>
 </blockquote>
 <h4 id="cnab" class="flex group">
-    <span>CNAB</span>
-    <a href="#cnab" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>CNAB</span>
+<a href="#cnab"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h4>
 <p><a href="https://cnab.io/">CNAB</a> 全名 Cloud Native Application Bundle，是 2018 年 12 月微软联合 Docker、HashiCorp、Bitnami 几个公司<a href="https://cloudblogs.microsoft.com/opensource/2018/12/04/announcing-cnab-cloud-agnostic-format-packaging-running-distributed-applications/">一起搞的</a>新开源包规范。名字看起来高大上，但目前看来，这个规范并没有普及起来，除了微软自己在玩，其他公司很少有在参与。Deis Labs 有一个叫 <a href="https://duffle.sh/">Duffle</a> 的归档项目，其实就是 CNAB 规范的打包工具，至于为什么被标为归档，笔者也不得而知。</p>
 <h4 id="krustlet" class="flex group">
-    <span>Krustlet</span>
-    <a href="#krustlet" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 300px;" src="/static/s2/1/krustlet.png"/>
+<span>Krustlet</span>
+<a href="#krustlet"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 300px;" src="/static/s2/1/krustlet.png"/>
 <p><a href="https://krustlet.dev/">Krustlet</a> 是 Deis Labs 觉得 Kubernetes 生态里面几乎都是 Go 的项目，这是他们为了探索 Rust 怎样和 Kubernetes 结合起来的实验性项目，<strong>是一个 Rust 编写的的 Kubelet，可以直接用来在 Kubernetes 中跑编译成 WebAssembly 的模块。<strong>所以 Kruslet 这个名字其实是  <strong>K</strong>ubernetes-<strong>rust</strong>-kube</strong>let</strong> 的缩写。 </p>
 <blockquote>
 <p>Kubelet 是 Kubernetes 非常核心的组件，用来调度 Pod 等资源的。</p>
 </blockquote>
 <p>笔者认为 Krustlet 是一个很有创新性的项目，它于 2021 年 7 月份发布了 1.0，并且已经是 <strong>CNCF 的沙盒项目</strong>。</p>
 <h4 id="krator" class="flex group">
-    <span>Krator</span>
-    <a href="#krator" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 80px;" src="/static/s2/1/krator.png"/>
+<span>Krator</span>
+<a href="#krator"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 80px;" src="/static/s2/1/krator.png"/>
 <p><a href="https://github.com/krator-rs/krator">Krator</a> 是 Deis Labs 在开发 Krustlet 过程中抽出来的一个方便构建 Kubernetes Operator 的 Rust 项目。名字是<strong>K</strong>ubernetes <strong>R</strong>ust st<strong>at</strong>e machine operat<strong>or</strong> 的缩写，目前是 <strong>CNCF 沙盒项目</strong>。</p>
 <h4 id="mystikos" class="flex group">
-    <span>Mystikos</span>
-    <a href="#mystikos" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 200px;" src="/static/s2/1/mystikos.png"/>
+<span>Mystikos</span>
+<a href="#mystikos"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 200px;" src="/static/s2/1/mystikos.png"/>
 <p><a href="https://github.com/deislabs">Mystikos</a> 是一系列用来帮助在硬件可信执行环境 (Trusted Execution Environment，简称 TEE) 下运行 Linux 容器的运行时和工具。目前仅支持 Intel ® SGX，其他 TEE 硬件将在未来支持。</p>
 <h4 id="bindle" class="flex group">
-    <span>Bindle</span>
-    <a href="#bindle" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Bindle</span>
+<a href="#bindle"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h4>
 <p><a href="https://github.com/deislabs/bindle">Bindle</a> 并不能算是产品，它是 Deis Labs 发布的一个 Rust 项目，而且非常有意思。简单来说，Bindle 是一套用来描述文件之间逻辑依赖关系的规范。Deis Labs 提供了 server 和 client 的实现，主要应用场景比如网站打包、依赖库或包管理、WebAssembly 等等。详情可以看看 Bindle 的<a href="https://github.com/deislabs/bindle/blob/main/docs/bindle-spec.md">规范文档</a>。</p>
 <h4 id="oras" class="flex group">
-    <span>ORAS</span>
-    <a href="#oras" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 200px;" src="/static/s2/1/oras.png"/>
+<span>ORAS</span>
+<a href="#oras"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 200px;" src="/static/s2/1/oras.png"/>
 <p><a href="https://oras.land/">ORAS</a> 是 OCI Registry As Storage 的缩写，目前也是 <strong>CNCF 沙盒项目</strong>。笔者了解也不多，暂时没办法给出通俗的解释，欢迎大家补充。</p>
 <h4 id="brigade" class="flex group">
-    <span>Brigade</span>
-    <a href="#brigade" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 200px;" src="/static/s2/1/brigade.png"/>
+<span>Brigade</span>
+<a href="#brigade"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 200px;" src="/static/s2/1/brigade.png"/>
 <p><a href="https://brigade.sh/">Brigade</a> 是微软在 2017 年底推出的一个借助 Kubernetes 来实现事件驱动、事务处理编排的工具，可以使用在 CI / CD 环节。目前也是 <strong>CNCF 沙盒项目</strong>，但是看起来在国内毫无用户。</p>
 <h4 id="hippo" class="flex group">
-    <span>Hippo</span>
-    <a href="#hippo" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Hippo</span>
+<a href="#hippo"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h4>
 <p><a href="https://github.com/deislabs/hippo">Hippo</a> 是 Deis Labs 推出的一个 WebAssembly PaaS 平台，很有创意，笔者个人非常喜欢这个产品。顺便说一下 Hippo 用到的技术就包括前面提到的 Bindle。详细信息可以了解一下 Hippo 的官宣博客。</p>
 <div class="url-preview">
@@ -623,25 +840,38 @@
  <a href="https://deislabs.io/posts/introducing-hippo/">https://deislabs.io/posts/introducing-hippo/</a>
 </div>
 <h4 id="porter" class="flex group">
-    <span>Porter</span>
-    <a href="#porter" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
-</h4><img class="mx-auto" style="width: 200px;" src="/static/s2/1/porter.png"/>
+<span>Porter</span>
+<a href="#porter"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
+</h4>
+<img class="mx-auto" style="width: 200px;" src="/static/s2/1/porter.png"/>
 <p><a href="https://porter.sh">Porter</a> 是微软 2020 年初推出的实现前面说过的 CNAB 规范的打包工具，目前是 <strong>CNCF 的沙盒项目</strong>。笔者没有具体用过，大家感兴趣可以自行了解。</p>
 <h4 id="wagi" class="flex group">
-    <span>WAGI</span>
-    <a href="#wagi" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>WAGI</span>
+<a href="#wagi"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h4>
 <p><a href="https://github.com/deislabs/wagi">WAGI</a> (WebAssembly Gateway Interface) 是 Deis Labs 在 WebAssembly 领域的一个很有创新性的实验性项目，于  2020 年 10 月发布。简单来说就是任何编译成 WASI 格式的 WebAssembly 模块，都可以用来处理 HTTP 请求。</p>
 <blockquote>
@@ -649,26 +879,38 @@
 <p>WebAssembly 正处在蓬勃发展的阶段，Deis Labs 最近几年在 WebAssembly 领域做了非常多的创新性尝试，但很多尝试都失败了，为数不多目前有不错进展的大概只有 Krustlet 和 WAGI 了。</p>
 </blockquote>
 <h4 id="vscode 插件" class="flex group">
-    <span>VSCode 插件</span>
-    <a href="#vscode 插件" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>VSCode 插件</span>
+<a href="#vscode 插件"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h4>
 <p>另外，Deis Labs 还参与开发了<a href="https://github.com/deislabs?q=vscode">一系列</a>和 Kubernetes 有关的 VSCode 插件，比如 VSCode 的 <a href="https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools">Kubernetes 插件</a>。</p>
 <p>总的来说，<strong>Deis Labs 是真的超级富有创造力，几年时间里给 CNCF 贡献了 7 个项目（还不包括合作的项目）</strong>。给人的感觉是成为 CNCF 项目似乎对他们来说是一件轻而易举的事情。<strong>当然不得不说，Deis Labs 的大部分项目都比较超前，比如 Krustlet，Bindle，WAGI，想法真的都很棒，但是目前受众还不是很多，知道这些项目的人也不多，我们只能用长远的眼光去看待这些项目未来的潜力和价值。</strong></p>
 <h3 id="合作的项目" class="flex group">
-    <span>合作的项目</span>
-    <a href="#合作的项目" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>合作的项目</span>
+<a href="#合作的项目"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Deis Labs 的项目我们已经在上面讲了十几个了，但还不止如此，其他几个 Deis Labs 参与合作过的项目也非常值得一提：</p>
 <ul>
@@ -678,25 +920,37 @@
 </ul>
 <p>不知道大家有有没有注意，Service Mesh Interface、Open Service Mesh 这些项目的官网和 Deis Labs 的很多网页风格都非常类似。没错，这些都是 Deis Labs 设计的，他们的风格都是非常清新活泼，充满活力的感觉。</p>
 <h2 id="核心人物" class="flex group">
-    <span>核心人物</span>
-    <a href="#核心人物" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>核心人物</span>
+<a href="#核心人物"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>前面讲了那么多 Deis Labs 的项目，接下来重点介绍一下 Deis Labs 的两位核心人物。</p>
 <h3 id="gabe monroy" class="flex group">
-    <span>Gabe Monroy</span>
-    <a href="#gabe monroy" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Gabe Monroy</span>
+<a href="#gabe monroy"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Gabe Monroy 从 OpDemand 到 Engine Yard 的 Deis 一直都是担任 CTO 角色，当初的 Deis 项目主要也是由他在主导。也是他不错的眼光看到了 Matt Butcher 几个人在 Hackthon 上做的那款产品的潜力，在他的推动下才有了后来的 Helm。</p>
 <p>加入微软后，Gabe Monroy 从 Azure 的首席项目经理 (Partner Program Manager) 升到了产品管理副总裁 (Vice President Of Product Management)。</p>
@@ -706,14 +960,20 @@
 </blockquote>
 <p><img src="/static/s2/1/gabe-monroy.png" alt="" loading="lazy"></p>
 <h3 id="matt butcher" class="flex group">
-    <span>Matt Butcher</span>
-    <a href="#matt butcher" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Matt Butcher</span>
+<a href="#matt butcher"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Matt Butcher 是一个非常极客的工程师，他早期是 Deis 项目的核心贡献者，后来是 Helm，Brigade, Krustlet 等项目的主要作者，也是 Deis Labs 的灵魂人物。上面提到的 CNAB，OAM 等规范也是 Matt Butcher 在主导推动。</p>
 <p>除了在软件项目上非常高产之外，Matt Butcher 还出过很多书！2016 年一本《给孩子讲 Kubernetes 是什么》（原名 The Illustrated Children’s Guide to Kubernetes）的插画书在国内外开始火起来了，其作者就是 Matt Butcher，现在这本书在 CNCF 官网就<a href="https://www.cncf.io/phippy/the-childrens-illustrated-guide-to-kubernetes/">可以看到</a>。其他的书包括：</p>
@@ -736,14 +996,20 @@
 </div>
 </blockquote>
 <h2 id="新未来" class="flex group">
-    <span>新未来</span>
-    <a href="#新未来" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>新未来</span>
+<a href="#新未来"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s2/1/fermyon.png" alt="" loading="lazy"></p>
 <p>2022 年 1 月，一家名叫 <a href="https://www.fermyon.com/">Fermyon</a> 的新公司成立了，首轮融资 400 万美金，团队将近 10 位创始成员都来自 Deis Labs，CEO 就是 Matt Butcher。</p>
@@ -778,26 +1044,38 @@
 </blockquote>
 <p>看到这些数据和大家的肯定，我内心确实也充满喜悦，所以经过一番思考后，我决定把这些内容对外发布出来，同时考虑长期更新下去。主要有几个原因：</p>
 <h2 id="兴趣使然" class="flex group">
-    <span>兴趣使然</span>
-    <a href="#兴趣使然" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>兴趣使然</span>
+<a href="#兴趣使然"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><strong>首先是兴趣使然</strong>。我好几年前（可能大学时代）就开始关注这方面的信息，不管是新的技术，还是新的产品，或者是 HackerNews 上突然火起来的新闻，只要我发现了，我都会及时去了解。比如，我应该 15 年左右就发现了 <a href="https://github.com/hashicorp/vagrant">Vagrant</a> 这样的一款产品，并且也亲自使用过一段时间，当时深挖这款产品了解到了背后的作者，也就是 HashiCorp 的创始人 <a href="https://github.com/mitchellh">Mitchell Hashimoto</a>，于是我很早就在 Github 上 follow 他了，完全让我没有想到的是，HashiCorp 后来竟然取得了如此成就！</p>
 <p>不过以前往往是自己主动去发现，并未想过要总结分享，也没想过这些信息对其他人是否会有帮助。《TO-D 观察室》的这次尝试让我意识到，这是一件很有意义的事情。<strong>一方面，把自己所掌握的信息很好的总结沉淀下来，是一个对个人很有裨益的提升手段，另一方面，这些内容也能帮助到同样感兴趣的朋友，两全其美，何乐不为？</strong></p>
 <h2 id="分享故事" class="flex group">
-    <span>分享故事</span>
-    <a href="#分享故事" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>分享故事</span>
+<a href="#分享故事"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>另一个主要原因是<strong>关于故事</strong>。</p>
 <p><strong>人与生俱来就是一种喜欢聆听故事的生物。</strong> 从小时候父母或老师讲的童话故事，到长大后学习阅读过程中领会的历史典故、名人励志故事，到某个普通人平凡真实的感人故事，每一种故事或多或少都能触动不同人的内心，让人记忆尤深，甚至受此影响。就我个人而言，可能和很多 80、90 后一样，从小就听过微软比尔盖茨的故事，所以初中开始我对计算机的兴趣就开始萌芽，到最后义无反顾选择了计算机这个行业。<strong>在我个人看来，故事的力量是不容小觑的。</strong></p>
@@ -805,28 +1083,40 @@
 <p>以 Mesos 来举例：<strong>Mesos 没落了，与之伴随的是过去它的辉煌，那段与 Kubernetes 较量的战争，随着时间的推移，越来越不被新一代工程师所熟知</strong>。试着去问一下今年刚毕业的学生，有多少人听过它的故事？而它刚好是我毕业工作那几年如日中天的技术，<strong>它的故事和最后的反思其实非常值得我们去了解学习。</strong></p>
 <p>《TO-D 杂志》的第一季里面大部分文章都充满故事性，我想这可能也是这些文章深受大家喜欢的原因之一。就像我上面截图里面解答那位同学的问题一样，<strong>我希望这个杂志的文章能做到保持干货的同时不丧失趣味性</strong>。</p>
 <h2 id="激发创造" class="flex group">
-    <span>激发创造</span>
-    <a href="#激发创造" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>激发创造</span>
+<a href="#激发创造"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>最后一个原因是<strong>关于创造力</strong>。</p>
 <p>我非常喜欢看魔术表演，虽然明明知道它是一门视觉 + 骗人的艺术，但是<strong>我却非常痴迷这些魔术师富有创造力的脑洞，就像痴迷国外最新的技术和产品一样</strong>。我常常惊叹为什么他们这么具有创造力，能做出这么让人眼前一亮的产品？而为什么我在国内很少看到？我怎样才能像他们那样做出一些具有创造力的产品？</p>
 <p>出于这个原因，我一直都很有动力去了解、调研这些技术和产品，我想的是<strong>只有多学习，多了解，才能激发自己的创造力。希望在这个学习了解过程中总结下来的内容，或多或少也能过激发到 《TO-D 杂志》的每一位读者。</strong></p>
 <p>以上就是我的初衷。至于对外发布的方式为什么不选择微信公众号、知乎专栏，主要在于我想来一次乌托邦的尝试。</p>
 <h2 id="一场乌托邦实验" class="flex group">
-    <span>一场乌托邦实验</span>
-    <a href="#一场乌托邦实验" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>一场乌托邦实验</span>
+<a href="#一场乌托邦实验"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>纵观全球，中国互联网内容是非常封闭的，不管是阅读全文需要下载 App，还是微信公众号文章禁止其他搜索引擎检索，网页链接不能在各大 App 之间正常分享，<strong>这些都是非常畸形的行为，不仅完全违背开创 WWW 互联网那代科学家的初衷，而且也极度缺乏那代科学家的胸怀</strong>。笔者个人不想把这些内容封闭在这些孤岛中，不想被这些中心化的大平台束缚捆绑，所以我选择与之抗争，<strong>来一场乌托邦式的实验</strong>。</p>
 <p>为了发布《TO-D 杂志》，笔者<strong>专门使用 Rust 开发了一个帮助每个人构建一份属于自己的杂志的开源软件 <a href="https://github.com/zineland/zine">Zine</a></strong>。《TO-D 杂志》就是这样的一份完全基于 <code>Zine</code> 编写的开源独立杂志。</p>
@@ -845,14 +1135,20 @@
 <p>目前不支持邮件订阅，希望能得到大家的赞助。</p>
 </blockquote>
 <h2 id="总结" class="flex group">
-    <span>总结</span>
-    <a href="#总结" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>总结</span>
+<a href="#总结"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><strong>《TO-D 杂志》是一份开源独立的杂志</strong>，虽然目前只有我一个人在写文章，但一个人的能力是非常有限的，欢迎每个感兴趣的朋友投稿贡献。只需要遵循一个最重要的原则就行：<code>保持干货的同时不丧失趣味性</code>！如果大家有发现好的新公司，新产品，欢迎推荐给我。</p>
 <img style="width: 350px" src="/static/s1/10/whiteboard.jpg" />
@@ -879,14 +1175,20 @@
   <img class="mx-auto" style="height: 280px;" src="/static/s1/9/mirantis-light.png"/>
 </p>
 <h3 id="外包公司能有什么出息？" class="flex group">
-    <span>外包公司能有什么出息？</span>
-    <a href="#外包公司能有什么出息？" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>外包公司能有什么出息？</span>
+<a href="#外包公司能有什么出息？"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>2010 年 NASA 和 Rackspace <a href="https://web.archive.org/web/20171026111206/https://www.openstack.org/blog/2010/07/introducing-openstack/">联合发布</a>了私有云解决方案 OpenStack，很快便吸引了一家外包公司的注意，该公司在 2011 年就开始给 OpenStack 做贡献。2012 年，OpenStack 发布才两年多，NASA 就抛弃了 OpenStack 选择<a href="https://www.wired.com/2012/06/nasa-web-services-openstack/">拥抱公有云 AWS</a>。而这家外包公司也在这一年华丽转型全面投入 OpenStack，变成了一家纯 OpenStack 公司。这家外包公司就是 Mirantis，它于 1999 年在俄罗斯成立（后来把总部定在了美国加州）。</p>
 <blockquote>
@@ -895,14 +1197,20 @@
 <p>关于 Mirantis 转型 OpenStack 之前的外包经历 Mirantis 自己好像从来不愿提起，网上几乎也没有什么资料。不过互联网还是有记忆的，2013 年一家专注于俄罗斯和东欧市场的科技媒体刚好报道了 Mirantis A 轮融资的消息，标题就是“<a href="http://web.archive.org/web/20131211151032/http://goaleurope.com/2013/06/24/russian-former-outsourcing-mirantis-announces-10-million-series-a-round/">Russian former outsourcing Mirantis Announces $10 Million Series A Round</a>“。</p>
 <p>我们大概都有一个刻板印象，<strong>外包公司能有什么大出息？这句话可能对绝大多数外包公司都适用，但是对 Mirantis 却不适用。在转型 OpenStack 公司之后，Mirantis 融资顺畅，一路高歌，在随后的几年里成为了 OpenStack 领域数一数二的公司。</strong></p>
 <h3 id="openstack 的时代" class="flex group">
-    <span>OpenStack 的时代</span>
-    <a href="#openstack 的时代" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>OpenStack 的时代</span>
+<a href="#openstack 的时代"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>2012 年 OpenStack 基金会<a href="https://www.businesswire.com/news/home/20120919005997/en/OpenStack-Launches-Independent-Foundation-Begins-Work-Protecting">成立</a>，OpenStack 的黄金时代到来。而 Mirantis 也成为了这个基金会的创始成员之一，Mirantis 的创始人也当选了基金会的董事会成员。从 2013 年到 2015 年，Mirantis 分别完成了 2000 万美金的 A 轮和 2 亿美金的 B 轮融资，投资方不仅有 Intel、RedHat 和爱立信，还有一家来自中国的<a href="https://www.westsummitcap.com/zh/">华山资本</a>。</p>
 <blockquote>
@@ -915,14 +1223,20 @@
 <p>OpenStack 的版本命名和 Android 类似，从字母 A 开始命名，每一个版本换一个字母，截止到目前最新的版本是 Wallaby。</p>
 </blockquote>
 <h3 id="openstack 的没落" class="flex group">
-    <span>OpenStack 的没落</span>
-    <a href="#openstack 的没落" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>OpenStack 的没落</span>
+<a href="#openstack 的没落"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>OpenStack 的黄金时代才持续几年便开始逐渐没落。其中有很多原因：</p>
 <ul>
@@ -951,14 +1265,20 @@
 <p>后来，Open Stack 基金会改名 <a href="https://openinfra.dev/">Open Infrastructure 基金会</a>，不再专注于 OpenStack，也孵化了像 <a href="https://katacontainers.io/">Kata Container</a> 这样的明星项目。</p>
 </blockquote>
 <h3 id="高光时刻" class="flex group">
-    <span>高光时刻</span>
-    <a href="#高光时刻" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>高光时刻</span>
+<a href="#高光时刻"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Mirantis 在那次裁员之后依然没有放弃老本行 OpenStack 的业务，但是他把重心调整到了 Kubernetes 上，不再是一家纯 OpenStack 公司了。</p>
 <ul>
@@ -1001,14 +1321,20 @@
 <p>这里的一亿美金是年营收 (Annual Run Rate)，并非 ARR。</p>
 </blockquote>
 <h3 id="开创未来" class="flex group">
-    <span>开创未来</span>
-    <a href="#开创未来" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>开创未来</span>
+<a href="#开创未来"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>可以说 Mirantis 收购 Docker 企业业务这笔交易是相当成功的，现在的 Mirantis 已经不是当年 OpenStack 时代的 Mirantis 了，更不是十年前的那家外包公司了。<strong>如今的 Mirantis 是一个办公地点包括美国、加拿大、欧洲、中国、印度、日本等十几个国家和城市的跨国公司，也是一家业务从 OpenStack，到 Kubernetes、Docker，再到 DevOps、Data Center 等覆盖面非常广的公司。</strong> 这几年除了继续经营传统的 OpenStack 和 Docker 相关业务外，Mirantis 持续收购和开辟了新的产品线和业务：</p>
 <ul>
@@ -1058,25 +1384,37 @@
         <content type="html" xml:base="https://2d2d.io/s1/mesos">
             <![CDATA[<p>我们之前曾多次提到历史上竞争激烈的容器编排之战 (The Container Orchestration Wars)，而 Kubernetes 最有力的竞争者 Mesos 以及其背后的公司当时也算是风光无限，不仅是资本的宠儿，也是被众人看好的明日之星。好景不长，短短三年便改天换地，胜者 Kubernetes 自不必说，Docker 虽败，但开发者依然离不开他。Fleet 背后的 CoreOS，Cattle 背后的 Rancher 也都一直不断创新，备受瞩目。唯独 Mesos 似乎很惨，是早已沉寂，被人淡忘？还是已低调转型，等待厚积薄发？也不知道还有多少人会关心：之前 Mesos 背后的公司是谁？如今尚且安好？</p>
 <h2 id="mesos 简史" class="flex group">
-    <span>Mesos 简史</span>
-    <a href="#mesos 简史" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Mesos 简史</span>
+<a href="#mesos 简史"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/8/mesos.png" alt="" loading="lazy"></p>
 <h3 id="出生名门" class="flex group">
-    <span>出生名门</span>
-    <a href="#出生名门" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>出生名门</span>
+<a href="#出生名门"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Mesos 最初是加州伯克利大学 RAD 实验室 2009 年开始的一个学术研究项目，当时项目的主要负责人是 Mesos <a href="https://people.eecs.berkeley.edu/%7Ealig/papers/mesos.pdf">这篇论文</a>的第一作者 Benjamin Hindman，他是 RAD 实验室的一名博士研究生。<strong>加州伯克利大学是现代计算机技术领域的一朵皇冠，里面诞生了非常多至今影响深远的技术，从 RISC 指令集、RAID（冗余磁盘阵列），到 PostgreSQL、Log-Structure Filesystem，再到 Spark 和 Ray，甚至连 eBPF 里面的 B 都是 Berkeley。</strong> 毫无疑问，Mesos 就是这样一个出生名门的项目。</p>
 <p>此时的 Twitter 早已进入高速发展的阶段，与之伴随的是 Twitter 频繁宕机的「失败鲸」时光。2010 年，正在 Twitter 苦不堪言的时候，他们看到了 Mesos 这个项目，随后马上应用到了 Twitter，成为 Twitter 自定义 PaaS 的实现基础，管理着 Twitter 超过 30 万台服务器上的应用部署。Benjamin Hindman 当时也加入了 Twitter，负责开发和部署 Mesos。Twitter 的这套基于 Mesos 的 PaaS 解决方案就是后来的 <a href="https://aurora.apache.org/">Apache Aurora</a>。</p>
@@ -1085,14 +1423,20 @@
 <p>Twitter 2008 ~ 2013 年宕机时的页面，被海外网友称为「失败鲸」。</p>
 </blockquote>
 <h3 id="mesosphere 成立" class="flex group">
-    <span>Mesosphere 成立</span>
-    <a href="#mesosphere 成立" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Mesosphere 成立</span>
+<a href="#mesosphere 成立"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>2013 年，Benjamin Hindman 离开 Twitter 成立了一个名为 <a href="https://web.archive.org/web/20140903015326/http://mesosphere.com/">Mesosphere</a> 的公司，专注于打造生产级商业化 Mesos 平台。<strong>Mesosphere 正式成为 Mesos 背后的公司，在后期的 Mesos 开发，商业化运营，与 Kubernetes 的竞争中几乎都由 Mesosphere 在主导和支撑。</strong></p>
 <blockquote>
@@ -1113,26 +1457,38 @@
 </li>
 </ul>
 <h3 id="备受追捧" class="flex group">
-    <span>备受追捧</span>
-    <a href="#备受追捧" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>备受追捧</span>
+<a href="#备受追捧"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Mesosphere 成立后就备受资本的追捧，自 2014 年 6 月至 2018 年 5 月共完成 A 到 D 轮四轮融资，金额分别为 1050 万美元、3600 万美元、7350 万美元和 1.25 亿美元，投资方包括 A16Z、Fuel Capital、微软等。Mesosphere 最高估值是 D 轮之后达到 7.75 亿美金。</p>
 <p>Mesos 在 Twitter 的成功应用后，也吸引了全世界其他知名公司的采纳，比如 Airbnb、eBay 和 Netflix 等等，甚至 2015 年 Apple 的 Siri 就是运行在 Mesos 上，Mesos 也因此曾经火极一时。至于微软，他不仅投资了 Mesosphere，还让他的 Azure 平台率先<a href="https://www.zdnet.com/article/new-azure-container-service-to-bring-together-mesos-docker-and-azure-cloud/">支持</a>了 Mesos。</p>
 <h3 id="黯然退场" class="flex group">
-    <span>黯然退场</span>
-    <a href="#黯然退场" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>黯然退场</span>
+<a href="#黯然退场"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>辉煌是短暂的，Kubernetes 来势汹汹，Mesos 却节节败退。起初 Mesosphere 的一部分人还认为这两款编排工具完全可以并行存在，但残酷的现实把他们的这个美好梦想击得粉碎。一山不容二虎，容器编排领域似乎也容不下我 Mesos 了。心有不甘，我好想再做一次最后的挣扎，但是似乎已经于事无补。</p>
 <ul>
@@ -1141,14 +1497,20 @@
 <li>2021 年 4 月 21 号，Apache 成员投票通过计划将 Mesos 移入 <a href="https://attic.apache.org/">Attic</a> (阁楼)，正式结束这个项目的生命。不过两天之后这个决定被撤回，Mesos 依然继续残喘存活。</li>
 </ul>
 <h3 id="复盘" class="flex group">
-    <span>复盘</span>
-    <a href="#复盘" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>复盘</span>
+<a href="#复盘"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h3>
 <p>Mesos 可能是计算机历史上最短命的技术栈，Benjamin Hindman 在 HackerNews <a href="https://news.ycombinator.com/item?id=26713082">关于 Mesos 被移入 Attic 的帖子</a>上做了复盘：<strong>“Mesos 的失败是种必然”</strong>。</p>
 <blockquote>
@@ -1169,14 +1531,20 @@
 <p>Kubernetes 成功的另一个原因，可能在于 golang  的生态。在 Mesos 中，由于采用独特的线程模型，我们耗费了大量精力在 C++ 中构建基础 HTTP 层。<strong>如果能够重新选择，真希望能把这些时间花在开发点真实有用的功能上。</strong></p>
 </blockquote>
 <h2 id="d2iq" class="flex group">
-    <span>D2iQ</span>
-    <a href="#d2iq" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>D2iQ</span>
+<a href="#d2iq"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/8/d2iq.png" alt="" loading="lazy"></p>
 <p>Mesos “死了”，但 Mesosphere 这家公司还得继续活着。<strong>没有成王败寇，新生的 D2iQ 选择拥抱了它曾经的死敌 Kubernetes，往事如烟，重新来过！</strong></p>
@@ -1224,14 +1592,20 @@
             <![CDATA[<p>1999 年 Sun 公司的一名工程师出版了一本书，名为<a href="https://book.douban.com/subject/3162962/">《The Java Native Interface (JNI)》</a>。这位工程师的名字叫 Sheng Liang（梁胜），他正是 Java 语言 JNI 的作者，在 Sun 公司他还领导过 Java JVM 的开发工作。15 年后的 2014 年，这位曾经的工程师已经成为了一名拥有多次成功创业经验的企业家，在这一年他再度出发，创建了他的第三家公司，也就是本期主题公司 Rancher。</p>
 <p><img src="/static/s1/7/jni.png" alt="" loading="lazy"></p>
 <h2 id="技术梦想家" class="flex group">
-    <span>技术梦想家</span>
-    <a href="#技术梦想家" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>技术梦想家</span>
+<a href="#技术梦想家"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>梁胜这个名字可能并不被大家所熟知，但是他过去的人生履历和所取得的成就无一不值得我们敬佩和赞叹。</p>
 <ul>
@@ -1274,14 +1648,20 @@
 </ul>
 <p>作为一名连续创业者，<strong>梁博士是一位标准的技术梦想家，也是一位具有开拓精神的优秀创业者和企业家。</strong> 作为华人工程师的泰斗，梁博士<a href="https://mp.weixin.qq.com/s/3hXMvQa7IO3zS-7JfxRhiQ">勉励国内工程师</a>：<strong>不要相信程序员只能吃青春饭，绝对没有任何其它职业比编程序更能体现个人创造力和技能的价值，程序员就像艺术家，要努力成为世界一流。</strong></p>
 <h2 id="rancher" class="flex group">
-    <span>Rancher</span>
-    <a href="#rancher" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Rancher</span>
+<a href="#rancher"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>2014 年，Docker 已经正式发布一年了，CoreOS 也成立了，K8S 正在萌芽中，梁胜博士敏锐的发现一个新的技术变革时代即将到来，未来不可能再是 CloudStack 和 OpenStack 的时代，而将是容器的时代。Rancher 就这样诞生了！</p>
 <p><img src="/static/s1/7/liangsheng.png" alt="" loading="lazy"></p>
@@ -1364,14 +1744,20 @@
 </ul>
 <p>Rancher 的项目实在是太多了，还有一些项目没有例举出来。Rancher 过去几年深刻洞察行业趋势，发掘客户需求，推出了一个又一个备受欢迎的产品，2020 年被 SUSE 收购后更是强强联合。</p>
 <h2 id="suse + rancher" class="flex group">
-    <span>SUSE + Rancher</span>
-    <a href="#suse + rancher" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>SUSE + Rancher</span>
+<a href="#suse + rancher"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/7/suse-rancher.png" alt="" loading="lazy"></p>
 <p>2020 年 7 月 8 号，SUSE 和 Rancher 联合宣布，SUSE 将收购 Rancher，不过双方都未透露具体的收购金额。2020 年 12 月 1 号，Rancher 收购案正式完成。</p>
@@ -1483,14 +1869,20 @@
         <content type="html" xml:base="https://2d2d.io/s1/coreos">
             <![CDATA[<p>除了云原生领域的开发者和从业者之外，其他人几乎很少听过 CoreOS 这家公司，未来这个名字估计会越来越少被人听到。2020 年这家公司的官网 (<a href="https://coreos.com">https://coreos.com</a>) 全面下线，消失在互联网中，甚至在 Google 上也不留痕迹。现在我们只能在<a href="https://web.archive.org/web/20170920080743/https://coreos.com/">互联网档案馆</a>上一瞥他曾经的辉煌和荣耀。CoreOS 是一家什么样的公司？他曾经塑造了什么样的传奇？</p>
 <h2 id="创立初心" class="flex group">
-    <span>创立初心</span>
-    <a href="#创立初心" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>创立初心</span>
+<a href="#创立初心"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/5/garage.png" alt="" loading="lazy"></p>
 <blockquote>
@@ -1506,14 +1898,20 @@
 <p>值得一提的是 Brandon Philips 在创立 CoreOS 之前已经在 SUSE Linux 作为一名内核工程师工作了 4 年多了。而当时另外一名资深的 Linux 内核维护者  <a href="http://en.wikipedia.org/wiki/Greg_Kroah-Hartman">Greg Kroah-Hartman</a> 则是他们的技术顾问。2021 年 4 月，明尼苏达大学的教授故意向 Linux 提交漏洞代码来做研究，就是被 Greg Kroah-Hartman 给封禁的。</p>
 </blockquote>
 <h2 id="一路开挂" class="flex group">
-    <span>一路开挂</span>
-    <a href="#一路开挂" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>一路开挂</span>
+<a href="#一路开挂"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>自创立 CoreOS 之后，这家公司的产出和取得的成就只能用<strong>一路开挂</strong>这个词来形容：</p>
 <ul>
@@ -1555,14 +1953,20 @@
 <p>另外，CoreOS 是 CNCF 2015 年创立时的最初始成员之一，当时他们公司成立才两年。</p>
 <p>上述这些产品在现在依然影响深远，可以毫不夸张的说：<strong>云原生领域的半壁江山都是构建在这些产品的基础上的，这种一路开挂的操作在世界上恐怕没有几家创业公司可以与之匹敌。</strong></p>
 <h2 id="商业化" class="flex group">
-    <span>商业化</span>
-    <a href="#商业化" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>商业化</span>
+<a href="#商业化"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>CoreOS 的产品非常具有前瞻性，在早期都没多少人知道容器、Kubernets 是啥的时候，他们已经开始做商业化了。当时他们最主要的商业化产品有三款：</p>
 <ul>
@@ -1573,14 +1977,20 @@
 <p><strong>这三款产品形成了一个完整的容器操作系统、镜像托管、容器编排的链路，商业思路也非常清晰。</strong> CoreOS 在其<a href="https://web.archive.org/web/20190113053653/https://coreos.com/blog/coreos-fourth-birthday">四周年的博客</a>中提到当时他们有 2000+ 家全球的主要客户 (Key customers)。</p>
 <p><img src="/static/s1/5/martix.png" alt="" loading="lazy"></p>
 <h2 id="被收购" class="flex group">
-    <span>被收购</span>
-    <a href="#被收购" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>被收购</span>
+<a href="#被收购"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>2014 年 RedHat 看到了 CoreOS 的崛起，推出了对标 CoreOS 的项目 - <a href="https://projectatomic.io/">Atomic</a>。同时，RedHat 的另一款商业产品 OpenShift 跟 CoreOS 的 Tectonic 也存在非常大的竞争关系。经过几年的相爱相杀，RedHat 和 CoreOS 达成共识。<strong>2018 年 1 月 30 号，RedHat 以 2.5 亿美金的价格全资收购 CoreOS（<em>当时 CoreOS 的员工才 130 人</em>）。</strong> 收购后，CoreOS 的 Container Linux 和 Atomic 合并进 Red Hat Enterprise Linux，CoreOS 的 Tectonic 合入 OpenShift，Quay.io 则作为 RedHat 的子产品继续存在。</p>
 <div class="url-preview">
@@ -1627,14 +2037,20 @@
 <p>近几年来，国内在开源社区的影响力越来越显著，其中 Apache APISIX 其背后的公司支流科技便是其中之一。上图中的 <strong>Kong 则是海外另一家独角兽公司，支流科技和 Kong 两者有很多相似之处，他们在云原生网关赛道彼此博弈，算得上是一场国内与海外的较量。</strong></p>
 <p>首先简单介绍一下这两家公司：</p>
 <h2 id="kong" class="flex group">
-    <span>Kong</span>
-    <a href="#kong" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>Kong</span>
+<a href="#kong"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><a href="https://konghq.com/">Kong</a> 的前身是 2010 年成立于意大利的 Mashape，2015 年发布了 Kong 网关这款产品，后来 2017 年转型成现在的 Kong Inc，地点美国加州。算是一家以开源 API 网关产品起家，后续扩展到 Service Mesh，API 工具等产品的 To B SaaS 软件公司。最新一轮融资是 2021 年 2 月份，1 亿美金 D 轮，估值 14 亿美金，投资方包括高盛、A16Z 等知名机构。其主要产品有：</p>
 <ul>
@@ -1659,14 +2075,20 @@
 </li>
 </ul>
 <h2 id="支流科技" class="flex group">
-    <span>支流科技</span>
-    <a href="#支流科技" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>支流科技</span>
+<a href="#支流科技"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><a href="https://www.apiseven.com/">支流科技</a>是一家于 2019 年 4 月在深圳成立的开源商业化公司，他们的开源产品名叫 APISIX。支流科技获得真格基金、顺为资本、经纬中国等知名机构的投资，最新一轮为 2021 年 6 月经纬中国的数百万美元 A+ 轮融资。目前他们的主要产品有：</p>
 <ul>
@@ -1678,14 +2100,20 @@
 <p>很有意思的是支流科技的产品叫 APISIX，而他们公司英文名叫 Apiseven，域名是 <a href="http://apiseven.com">apiseven.com</a>。</p>
 </blockquote>
 <h2 id="对比" class="flex group">
-    <span>对比</span>
-    <a href="#对比" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>对比</span>
+<a href="#对比"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p><img src="/static/s1/4/vs-lite.png" alt="" loading="lazy"></p>
 <p><strong>Kong 和支流科技有很多相似的地方，在这场市场较量中也体现着中美两种开源商业化公司的差异。</strong></p>
@@ -1723,14 +2151,20 @@
 <p>Trends 链接：<a href="https://trends.google.com/trends/explore?date=2010-12-04%202022-01-04&amp;q=vagrant">https://trends.google.com/trends/explore?date=2010-12-04%202022-01-04&amp;q=vagrant</a></p>
 </blockquote>
 <h2 id="多云时代" class="flex group">
-    <span>多云时代</span>
-    <a href="#多云时代" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>多云时代</span>
+<a href="#多云时代"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>先来看一条充满戏剧性的时间线：</p>
 <ul>
@@ -1759,14 +2193,20 @@
 </ul>
 <p>HashiCorp 这家公司以及他的产品，毫无疑问是在这场多云趋势中最大的受益者之一。</p>
 <h2 id="产品" class="flex group">
-    <span>产品</span>
-    <a href="#产品" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>产品</span>
+<a href="#产品"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>HashiCorp 目前总共有八款主打产品，囊括了从开发 (Packer, Vagrant)、部署 (Terraform)、安全 (Boundary, Vault)、网络 (Consul)、应用 (Nomad, Waypoint)等各个环节。</p>
 <ul>
@@ -1799,14 +2239,20 @@
 <p><img src="/static/s1/3/stack.png" alt="" loading="lazy"></p>
 <p>HashiCorp 早些年发布了它的 HashiCorp 之道 (<a href="https://www.hashicorp.com/tao-of-hashicorp">The Tao of HashiCorp</a>)，这些产品无一不践行着这一哲学。HashiCorp 同样是 Go 语言的深度使用者，几乎所有产品都是 Go 语言编写，他们甚至把 Go 语言推崇的 <a href="https://en.wikipedia.org/wiki/Communicating_sequential_processes">CSP 并发</a>理念也写进了他们的道中。</p>
 <h2 id="商业模式" class="flex group">
-    <span>商业模式</span>
-    <a href="#商业模式" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>商业模式</span>
+<a href="#商业模式"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>HashiCorp 的商业模式也很有代表性，算是开源软件商业化的经典范例。</p>
 <p><img src="/static/s1/3/product.png" alt="" loading="lazy"></p>
@@ -1859,14 +2305,20 @@
 <p>为了让日益复杂的现代化软件能够更加流畅的在云上构建、云上部署、云上运行的一系列技术都算云原生技术。而这里所指的云不特指公有云、私有云或混合云，也不特指公有云中哪朵云。因为云原生的另一大理念就是避免厂商锁定：<strong>Vendor-neutral</strong> (厂商中立) 。你部署在 AWS 上的应用应该能无缝或者花很小代价能够迁移至其他使用云原生技术的平台。</p>
 <p>目前 CNCF 旗下的众多项目中，有 16 个已毕业 (Graduated)，26 个孵化中 (Incubating)，69 个处在沙盒阶段 (Sandbox)，在对大部分项目有个基本了解之后，我觉得可以把 CNCF 的愿景概括为两个词：<strong>技术变革</strong>与<strong>对抗熵增</strong>。</p>
 <h2 id="技术变革" class="flex group">
-    <span>技术变革</span>
-    <a href="#技术变革" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>技术变革</span>
+<a href="#技术变革"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>过去 20 多年，Apache 基金会的项目在 Java、大数据等领域影响深远，推动着当时的技术变革。从 CNCF 的第一个项目 Kubernetes 开始，CNCF 似乎就在引领着新的技术领域的革新之路。</p>
 <ul>
@@ -1877,14 +2329,20 @@
 </ul>
 <p>CNCF 的很多项目几乎都是各大云厂商纷纷采用的技术，同时也有源源不断的厂商给 CNCF 捐赠新的项目。CNCF 这一套成熟的孵化机制让他能够推动技术革新，在新技术领域 (WebAssembly，eBPF) 也不会落后，或许关于 CNCF  的下一轮的技术变革也在悄悄的发生着。</p>
 <h2 id="对抗熵增" class="flex group">
-    <span>对抗熵增</span>
-    <a href="#对抗熵增" class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-        <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
-            <svg width="12" height="12" fill="none" aria-hidden="true">
-                <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            </svg>
-        </div>
-    </a>
+<span>对抗熵增</span>
+<a href="#对抗熵增"
+   class="ml-2 inline-flex items-center opacity-0 border-0 group-hover:opacity-100"
+   aria-label="Anchor">
+    <div class="w-6 h-6 text-slate-400 ring-1 ring-slate-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-slate-900/10 hover:shadow hover:text-slate-700">
+        <svg width="12" height="12" fill="none" aria-hidden="true">
+            <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round">
+            </path>
+        </svg>
+    </div>
+</a>
 </h2>
 <p>事物无序程度的度量被称为熵，而熵增（事物无序程度的增加）是宇宙客观存在的规律。软件技术在不断进化变革的同时，不可避免的也会发生熵增。<strong>这种熵增会体现在很多方面，比如技术复杂度变高、技术规范程度变低、软件间可交互性变难。</strong> CNCF 不仅有引领新的技术变革的产品（Kubernetes, Prometeus)，同样也在孵化一批对抗熵增的项目，那就是这一系列的 <strong>Specification（技术规范）</strong>。 </p>
 <p><img src="/static/s1/2/specs.png" alt="" loading="lazy"></p>
